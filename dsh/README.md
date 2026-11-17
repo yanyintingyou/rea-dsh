@@ -45,11 +45,11 @@ run reports zero changes and leaves matching files alone.
 Verify the adapter without a client:
 
 ```sh
-~/.dsh/tools/node-v24.22.1-win-x64/node.exe \
-  ~/.dsh/tools/rea-dsh/node_modules/rea-agents/scripts/rea.mjs mcp doctor --json
+node "$HOME/.dsh/tools/rea-dsh/node_modules/rea-agents/scripts/rea.mjs" mcp doctor --json
 ```
 
-`healthy: true`, 255 tools, 6 prompts.
+`healthy: true`, 255 tools, 6 prompts. Run it with a Node that satisfies
+`engines.node`.
 
 ## Register with DSH
 
