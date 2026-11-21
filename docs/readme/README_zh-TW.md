@@ -28,6 +28,9 @@
 
 </div>
 
+> [!WARNING]
+> **已凍結的 fork。** 這是 [morluto/rea](https://github.com/morluto/rea) 的個人 fork。它存在的理由只有一個：rea-agents 6.9.0 廣播的 JSON Schema `pattern` 會被 DeepSeek Harness 的模型介面拒絕，整個請求因此失敗，所以這個 fork 裡帶了一個小腳本，為已安裝的 6.9.0 打補丁。rea-agents 6.10.1 已在上游修掉同一個問題（`rejectUnpairedSurrogates` 不再廣播這個 `pattern`），補丁沒有用途了。本倉庫永久凍結，不再提交。REA 的後續開發在 [morluto/rea](https://github.com/morluto/rea)。
+
 > [!IMPORTANT]
 > REA 官方來源： [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > 請透過這些官方來源提供的安裝與發布連結取得 REA。相似的儲存庫名稱或複製的 README 不能證明下載內容來自官方。

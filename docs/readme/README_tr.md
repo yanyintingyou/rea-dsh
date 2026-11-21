@@ -28,6 +28,9 @@
 
 </div>
 
+> [!WARNING]
+> **Dondurulmuş fork.** Bu depo [morluto/rea](https://github.com/morluto/rea) projesinin kişisel bir fork'u. Tek bir nedeni vardı: rea-agents 6.9.0'ın yayınladığı JSON Schema `pattern` alanını DeepSeek Harness model API'si reddediyor ve tüm istek başarısız oluyordu; bu yüzden fork, kurulu 6.9.0 sürümüne yama uygulayan küçük bir betik taşıyordu. rea-agents 6.10.1 aynı sorunu üst kaynakta çözdü (`rejectUnpairedSurrogates` artık bu `pattern` alanını yayınlamıyor), yamanın kullanımı kalmadı. Bu depo kalıcı olarak donduruldu: yeni commit yok. REA çalışmaları [morluto/rea](https://github.com/morluto/rea) üzerinde sürüyor.
+
 > [!IMPORTANT]
 > REA’nın resmî kaynakları: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > Kurulum ve sürüm bağlantılarını bu resmî kaynaklardan takip edin. Benzer bir depo adı veya kopyalanmış bir README, indirilen dosyanın resmî olduğunu kanıtlamaz.

@@ -28,6 +28,9 @@
 
 </div>
 
+> [!WARNING]
+> **Fork îngheţat.** Acesta este un fork personal al [morluto/rea](https://github.com/morluto/rea). A existat pentru un singur motiv: rea-agents 6.9.0 publica un `pattern` JSON Schema pe care API-ul de modele al DeepSeek Harness îl respinge, iar întreaga cerere eșua, așa că fork-ul conținea un script mic care patch-uia o instalare 6.9.0. rea-agents 6.10.1 rezolvă aceeași problemă în upstream (`rejectUnpairedSurrogates` nu mai publică acel `pattern`), deci patch-ul nu mai are rost. Acest repository este îngheţat definitiv: niciun commit nou. Lucrul la REA continuă în [morluto/rea](https://github.com/morluto/rea).
+
 > [!IMPORTANT]
 > Descarcă REA din [morluto/rea](https://github.com/morluto/rea),
 > de pe [rea.tools](https://rea.tools/) sau prin [pachetul npm rea-agents](https://www.npmjs.com/package/rea-agents).

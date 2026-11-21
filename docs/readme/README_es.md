@@ -28,6 +28,9 @@
 
 </div>
 
+> [!WARNING]
+> **Fork congelado.** Este es un fork personal de [morluto/rea](https://github.com/morluto/rea). Existió por un motivo: rea-agents 6.9.0 publicaba un `pattern` de JSON Schema que la API de modelos de DeepSeek Harness rechaza, y la petición completa fallaba, así que el fork incluía un script pequeño que parcheaba una 6.9.0 instalada. rea-agents 6.10.1 corrige ese mismo problema en el upstream (`rejectUnpairedSurrogates` ya no publica ese `pattern`), por lo que el parche no sirve para nada. Este repositorio está congelado de forma permanente: no habrá más commits. El trabajo de REA continúa en [morluto/rea](https://github.com/morluto/rea).
+
 > [!IMPORTANT]
 > Fuentes oficiales de REA: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > Usa los enlaces de instalación y de versiones publicados en estas fuentes oficiales. Un nombre de repositorio parecido o un README copiado no demuestra que una descarga sea oficial.

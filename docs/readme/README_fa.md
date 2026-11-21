@@ -28,6 +28,9 @@
 
 </div>
 
+> [!WARNING]
+> **fork منجمد.** این مخزن یک fork شخصی از [morluto/rea](https://github.com/morluto/rea) است. دلیل وجود آن یکی بود: rea-agents 6.9.0 یک `pattern` در JSON Schema منتشر می‌کرد که API مدل DeepSeek Harness آن را رد می‌کند و کل درخواست شکست می‌خورد؛ به همین دلیل یک اسکریپت کوچک برای وصله‌کردن نسخه ۶.۹.۰ نصب‌شده در این fork قرار داشت. rea-agents 6.10.1 همان مشکل را در بالادست رفع کرده است (`rejectUnpairedSurrogates` دیگر آن `pattern` را منتشر نمی‌کند)، پس وصله دیگر کاربردی ندارد. این مخزن برای همیشه منجمد است: هیچ کامیت دیگری نخواهد داشت. کار روی REA در [morluto/rea](https://github.com/morluto/rea) ادامه دارد.
+
 > [!IMPORTANT]
 > منابع رسمی REA: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > از پیوندهای نصب و انتشار در این منابع رسمی استفاده کنید. نام مشابه مخزن یا README کپی‌شده ثابت نمی‌کند که فایل دانلودی رسمی است.

@@ -28,6 +28,9 @@
 
 </div>
 
+> [!WARNING]
+> **ഫ്രീസ് ചെയ്ത ഫോർക്ക്.** ഇത് [morluto/rea](https://github.com/morluto/rea)-ന്റെ വ്യക്തിഗത ഫോർക്ക് ആണ്. ഇതിന് ഉണ്ടായിരുന്ന ഒരു കാരണം: rea-agents 6.9.0 പ്രഖ്യാപിക്കുന്ന JSON Schema `pattern` DeepSeek Harness-ന്റെ മോഡൽ API നിരസിക്കുന്നതിനാൽ മുഴുവൻ അഭ്യർത്ഥനയും പരാജയപ്പെട്ടു; അതിനാൽ ഇൻസ്റ്റാൾ ചെയ്ത 6.9.0-ൽ പാച്ച് ചെയ്യുന്ന ഒരു ചെറിയ സ്ക്രിപ്റ്റ് ഈ ഫോർക്കിൽ ഉണ്ടായിരുന്നു. rea-agents 6.10.1-ൽ അപ്‌സ്ട്രീം അതേ പ്രശ്നം പരിഹരിച്ചു (`rejectUnpairedSurrogates` ഇനി ഈ `pattern` പ്രഖ്യാപിക്കുന്നില്ല), അതിനാൽ പാച്ച് ആവശ്യമില്ല. ഈ റിപ്പോസിറ്ററി ശാശ്വതമായി ഫ്രീസ് ചെയ്തിരിക്കുന്നു: കൂടുതൽ കമ്മിറ്റുകളില്ല. REA-യുടെ തുടർപ്രവർത്തനം [morluto/rea](https://github.com/morluto/rea)-യിൽ തുടരുന്നു.
+
 > [!IMPORTANT]
 > REA ലഭ്യമാക്കേണ്ടത് [morluto/rea](https://github.com/morluto/rea),
 > [rea.tools](https://rea.tools/), അല്ലെങ്കിൽ [rea-agents npm package](https://www.npmjs.com/package/rea-agents) എന്നിവയിൽ നിന്നാണ്.

@@ -28,6 +28,9 @@
 
 </div>
 
+> [!WARNING]
+> **نسخة متفرعة مجمّدة.** هذا مستودع متفرع شخصي من [morluto/rea](https://github.com/morluto/rea). سبب وجوده واحد: كان rea-agents 6.9.0 ينشر `pattern` في JSON Schema ترفضه واجهة النموذج في DeepSeek Harness، فيفشل الطلب بأكمله، لذلك حمل المستودع سكربتًا صغيرًا يرقّع نسخة 6.9.0 المثبتة. أصلح rea-agents 6.10.1 المشكلة نفسها في المصدر الأعلى (`rejectUnpairedSurrogates` لم يعد ينشر هذا `pattern`)، فلم تعد للترقيع فائدة. هذا المستودع مجمّد بشكل دائم: لا مزيد من الإيداعات. يستمر العمل على REA في [morluto/rea](https://github.com/morluto/rea).
+
 > [!IMPORTANT]
 > المصادر الرسمية لـ REA: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > استخدم روابط التثبيت والإصدارات المنشورة في هذه المصادر الرسمية. تشابه اسم المستودع أو نسخ ملف README لا يثبت أن التنزيل رسمي.

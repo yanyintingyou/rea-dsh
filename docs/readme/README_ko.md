@@ -28,6 +28,9 @@
 
 </div>
 
+> [!WARNING]
+> **동결된 fork.** [morluto/rea](https://github.com/morluto/rea)의 개인 fork입니다. 존재 이유는 하나였습니다. rea-agents 6.9.0이 내보내는 JSON Schema `pattern`을 DeepSeek Harness의 모델 API가 거부해 모든 요청이 실패했고, 그래서 설치된 6.9.0에 적용하는 작은 스크립트를 이 fork에 두었습니다. rea-agents 6.10.1에서 업스트림이 같은 문제를 고쳤으므로(`rejectUnpairedSurrogates`가 더 이상 이 `pattern`을 내보내지 않음) 패치는 쓸모가 없습니다. 이 저장소는 영구적으로 동결되었습니다. 추가 커밋은 없습니다. REA 개발은 [morluto/rea](https://github.com/morluto/rea)에서 이어집니다.
+
 > [!IMPORTANT]
 > REA 공식 배포처: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > 이 공식 배포처에서 제공하는 설치 및 릴리스 링크를 이용하세요. 비슷한 저장소 이름이나 복사된 README만으로는 공식 배포 파일인지 확인할 수 없습니다.

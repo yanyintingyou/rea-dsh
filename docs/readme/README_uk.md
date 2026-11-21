@@ -28,6 +28,9 @@
 
 </div>
 
+> [!WARNING]
+> **Заморожений форк.** Це особистий форк [morluto/rea](https://github.com/morluto/rea). Причина існування була одна: rea-agents 6.9.0 публікував `pattern` у JSON Schema, який API моделі DeepSeek Harness відхиляє, і весь запит падав, тому у форку був невеликий скрипт, що патчив встановлений 6.9.0. У rea-agents 6.10.1 цю проблему виправлено в апстрімі (`rejectUnpairedSurrogates` більше не публікує цей `pattern`), тож патч більше не потрібен. Репозиторій заморожено назавжди: нових комітів не буде. Робота над REA триває в [morluto/rea](https://github.com/morluto/rea).
+
 > [!IMPORTANT]
 > Офіційні джерела REA: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > Користуйтеся посиланнями на встановлення та випуски з цих офіційних джерел. Схожа назва репозиторію або скопійований README не підтверджують, що завантажуваний файл є офіційним.

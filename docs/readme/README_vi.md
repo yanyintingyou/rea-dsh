@@ -28,6 +28,9 @@
 
 </div>
 
+> [!WARNING]
+> **Fork đã đóng băng.** Đây là fork cá nhân của [morluto/rea](https://github.com/morluto/rea). Nó tồn tại vì một lý do: rea-agents 6.9.0 công bố một `pattern` trong JSON Schema mà API mô hình của DeepSeek Harness từ chối, khiến toàn bộ yêu cầu thất bại, nên fork mang một script nhỏ để vá bản 6.9.0 đã cài. rea-agents 6.10.1 đã sửa đúng vấn đề đó ở upstream (`rejectUnpairedSurrogates` không còn công bố `pattern` này), nên bản vá không còn tác dụng. Kho lưu trữ này đóng băng vĩnh viễn: không có commit mới. Công việc REA tiếp tục tại [morluto/rea](https://github.com/morluto/rea).
+
 > [!IMPORTANT]
 > Các nguồn chính thức của REA: [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), [rea-agents](https://www.npmjs.com/package/rea-agents) (npm).
 > Hãy dùng các liên kết cài đặt và bản phát hành từ những nguồn chính thức này. Tên kho mã tương tự hoặc README được sao chép không chứng minh rằng tệp tải xuống là bản chính thức.
